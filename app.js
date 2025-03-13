@@ -8,9 +8,9 @@ function agregar() {
 
     var nombre = document.querySelector("#amigo").value;
 
+    ListaNombres.push(nombre);
 
-    console.log(nombre);
-
+    console.log(ListaNombres);
 
 };
 

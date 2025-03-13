@@ -13,3 +13,14 @@ Para class se usa el ".", para el id se usa "#"
 
 2. Posterior agregamos el ```addEventListener``` para que cuando se haga click en el botón ejecute esa función agregar
 
+3. Ahora que almacene los nombres en una lista, realizamos el siguiente código
+
+function agregar() {
+
+    var nombre = document.querySelector("#amigo").value;
+
+    ```ListaNombres.push(nombre);```
+
+    console.log(ListaNombres);
+
+};
