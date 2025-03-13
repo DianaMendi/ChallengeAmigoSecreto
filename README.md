@@ -24,3 +24,8 @@ function agregar() {
     console.log(ListaNombres);
 
 };
+
+4. En este paso se valida la entrada para que no tenga valores vacios, primero se puso que cada letra del nombre sea un elemento de la lista, con el ```.split()```, de ahí había un problema sobre que se pudieran ingresar valores vacios, así que se usó el ```trim()``` para eliminarlos.
+
+![image](https://github.com/user-attachments/assets/77b3c8d5-fa2b-4520-88ae-5c752d5e41ac)
+
