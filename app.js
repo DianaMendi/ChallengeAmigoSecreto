@@ -20,6 +20,8 @@ function agregar() {
 
         console.log(ListaNombres);
 
+        document.querySelector("#amigo").value = "" ;
+
     } else {
 
         alert("Falta ingresar Nombre");
