@@ -8,9 +8,23 @@ function agregar() {
 
     var nombre = document.querySelector("#amigo").value;
 
-    ListaNombres.push(nombre);
+    nombre = nombre.trim();
 
-    console.log(ListaNombres);
+    listaDigitos = nombre.split("");
+    console.log(listaDigitos);
+
+
+    if (listaDigitos.length != 0) {
+
+        ListaNombres.push(nombre);
+
+        console.log(ListaNombres);
+
+    } else {
+
+        alert("Falta ingresar Nombre");
+
+    };
 
 };
 
