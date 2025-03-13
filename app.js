@@ -4,6 +4,8 @@ var ListaNombres = [];
 
 var AgregarNombre = document.querySelector(".button-add");
 
+var Lista = document.getElementById("listaAmigos");
+
 function agregar() {
 
     var nombre = document.querySelector("#amigo").value;
@@ -25,6 +27,19 @@ function agregar() {
     } else {
 
         alert("Falta ingresar Nombre");
+
+    };
+
+
+
+    for (let contador = 0;contador < ListaNombres.length; contador++) {
+
+        var ElementoLista = document.createElement("li");
+        ElementoLista.innerHTML = ListaNombres[contador];
+
+        //También se puede usar el textContent
+
+        Lista.appendChild(ElementoLista);
 
     };
 
