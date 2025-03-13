@@ -29,3 +29,7 @@ function agregar() {
 
 ![image](https://github.com/user-attachments/assets/77b3c8d5-fa2b-4520-88ae-5c752d5e41ac)
 
+5. Siguiente paso sería reestablecer el valor del input a "" para que se pueda ingresar el siguiente nombre sin problemas, eso lo realizamos nuevamente con el document.querySelector, ya que si usamos la variable nombre no funcionará pues esta es solo una copia, una variable que tiene el valor del input, pero si modificamos esa variable no afectará en nada al valor del input en sí mismo, por eso directamente obtener nuevamente el valor con document.querySelector.
+
+![image](https://github.com/user-attachments/assets/46bf5247-f8e1-4e1d-a670-1f29a239ab99)
+
