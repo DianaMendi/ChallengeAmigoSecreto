@@ -33,3 +33,9 @@ function agregar() {
 
 ![image](https://github.com/user-attachments/assets/46bf5247-f8e1-4e1d-a670-1f29a239ab99)
 
+6. Dentro de la función Agregar, añadimos el for para que añada los nombres en las listas de html
+
+![image](https://github.com/user-attachments/assets/9070ecc2-d687-41cc-bed1-e69c0b017f0f)
+
+
+
