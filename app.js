@@ -57,11 +57,42 @@ function agregar() {
 AgregarNombre.addEventListener("click", agregar);
 
 
-function agregarNombre () {
+function sortearAmigos(){
+
+    if (ListaNombres == 0) {
+
+        alert("No hay nombres para sortear");
+
+    } else {
+
+        var númeroAleatorio = Math.floor((Math.random()*ListaNombres.length));
+
+        console.log(númeroAleatorio);
+
+        console.log(ListaNombres[númeroAleatorio]);
+
+        var listaNombresTotal = document.querySelectorAll(".nombreDeLista");
 
 
+        listaNombresTotal.forEach(elemento => {
+            elemento.textContent = '';
+        });
+
+        var ElementoLista = document.createElement("li");
+        ElementoLista.className = "nombreDeLista";
+        ElementoLista.innerHTML = ListaNombres[númeroAleatorio];
+
+        //También se puede usar el textContent
+
+        Lista.appendChild(ElementoLista);
+
+    };
 
 
 };
 
+
+var SortearNombres= document.querySelector(".button-draw");
+
+SortearNombres.addEventListener("click", sortearAmigos);
 
