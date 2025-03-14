@@ -49,6 +49,11 @@ Así que primero se obtuvo todos los valores con la clase de nombreDeLista, en u
 
 ![image](https://github.com/user-attachments/assets/1c518c06-d2db-4489-8ef9-104f766c1ebc)
 
+8. Finalmente sortear los nombres y mostrar solo 1, con el código math.random y math.floor para redondear, para así tener valores del 0 al número de elementos de la lista - 1, , luego el proceso se repite del punto 6 y 7
+
+![image](https://github.com/user-attachments/assets/95417689-c63c-4556-87f6-52971eb16deb)
+
+
 
 
 
