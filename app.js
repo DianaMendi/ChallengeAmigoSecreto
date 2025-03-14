@@ -31,10 +31,19 @@ function agregar() {
     };
 
 
+    var listaNombresTotal = document.querySelectorAll(".nombreDeLista");
+
+
+    listaNombresTotal.forEach(elemento => {
+        elemento.textContent = '';
+    });
+
 
     for (let contador = 0;contador < ListaNombres.length; contador++) {
 
+
         var ElementoLista = document.createElement("li");
+        ElementoLista.className = "nombreDeLista";
         ElementoLista.innerHTML = ListaNombres[contador];
 
         //También se puede usar el textContent
