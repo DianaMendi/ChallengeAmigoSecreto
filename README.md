@@ -37,5 +37,18 @@ function agregar() {
 
 ![image](https://github.com/user-attachments/assets/9070ecc2-d687-41cc-bed1-e69c0b017f0f)
 
+7. Borrar las listas con los nombres en el html con el dom, primero lo que se intentó realizar fue con un for poder eliminar cada valor de la lista, pero me di cuenta que no podia acceder a cada uno sin una clase o un identificador para ubicarloss.
+   
+![image](https://github.com/user-attachments/assets/eddcbe6f-0902-47fb-a798-9fa4a849ce35)
+
+Algo así se planeaba realizar pero tenía que acceder a todos los valores de las listas, lo hubiera almacenado los nombres , pero eso no hubiera cambiado, tenía que volver a acceder a todos los elementos directamente
+
+![image](https://github.com/user-attachments/assets/667779af-9f26-4e86-9ca1-68122d74e98b)
+
+Así que primero se obtuvo todos los valores con la clase de nombreDeLista, en una lista, de ahí recorría cada valor y le ponía su contenido como ""
+
+![image](https://github.com/user-attachments/assets/1c518c06-d2db-4489-8ef9-104f766c1ebc)
+
+
 
 
